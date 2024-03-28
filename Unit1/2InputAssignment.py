@@ -1,15 +1,30 @@
 print("########## 1.2.1 ##########")
-
+name=input("what is your name:")
+print(name)
+print(name)
 print("########## 1.2.2 ##########")
-
+name=input("what is your name:")
+print("!"+name+"!"+name+"!")
 print("########## 1.2.3 ##########")
+firstname=input("what is your first name")
+lastname=input("what is your last name")
+street=input("what is your street adress")
+city=input("what is your adress city: ")
+state=input("what is your adress state: ")
+zip=input("what is your zip code")
+print(firstname+" "+lastname)
+print(street)
+print(city+","+state+" "+zip)
 
 print("########## 1.2.4 ##########")
 
 # Fix the code
-part = input("The 1st part: ")
-part = input("The 1st part: ")
-part = input("The 1st part: ")
-print(part + part + part)
+part1 = input("The 1st part: ")
+part2 = input("The 2nd part: ")
+part3 = input("The third part: ")
+print(part1+"-"+part2+"-"+part3)
 
 print("########## 1.2.5 ##########")
+name=input("type in a name")
+year=input("type in a year")
+print(name+" is a valiant knight, born in the year "+year+".One morning "+name+" woke up to an awful racket: a dragon was approaching the village. Only "+name+" could save the village's residents.")
