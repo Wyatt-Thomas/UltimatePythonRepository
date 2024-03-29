@@ -15,7 +15,7 @@ print("my name is "+str(name)+ ", I am "+str(age)+ " years old")
 print("my skills are")
 print("- "+str(skill1)+ " ("+str(level1)+")")
 print("- "+str(skill2)+ " ("+str(level2)+")")
-print("- ", skill3, " ("+str(level3)+ ")")
+print("- "+str(skill3)+ " ("+str(level3)+ ")")
 print("I am looking for a job with a salary of "+str(lower)+ "-"+str(upper)+" dollars per month")
 
 
