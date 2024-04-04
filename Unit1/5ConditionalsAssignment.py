@@ -1,12 +1,13 @@
 
-print("########## 1.5.1 ##########")
-number=int(input("Please type in a number"))
-if number==1984:
-    print("Orwell")
+# print("########## 1.5.1 ##########")
+# number=int(input("Please type in a number"))
+# if number==1984:
+#     print("Orwell")
 print("########## 1.5.2 ##########")
 number=int(input("Please type in a number"))
 if number<0:
-    print("The absolute value of this number is",number*-1)
+    number=number*-1
+print("the absolute value of this number is",number)
 print("########## 1.5.3 ##########")
 name=input("What is your name?")
 if name!="Jerry":
@@ -36,7 +37,7 @@ if operation=="devide":
     print(number1,"/",number2,"=",number1/number2)
 print("########## 1.5.6 ##########")
 temp=int(input("Type in a temperature (F):"))
-Celsius=(temp-36)*(5/9)
+Celsius=(temp-32)*(5/9)
 print(temp,"degress Fahrenheit equales",Celsius,"degrees Celsius")
 if Celsius<0:
     print("Brr! It's Cold in Here")
