@@ -29,7 +29,7 @@
 #     number*=2
 # if number/limit==1:
 #     print(limit)
-# ========== 3.1.5 ==========
+# # ========== 3.1.5 ==========
 # limit=int(input("Upper limit"))
 # base=int(input("Base:"))
 # number=1
@@ -42,6 +42,8 @@
 # ========== 3.1.6 ==========
 # limit=int(input("Upper limit"))
 # number=0
+# number2=0
 # while number<limit:
-#     number=number+1
+#     number=number+(number2+1)
+#     number2=number2+1
 # print(number)
