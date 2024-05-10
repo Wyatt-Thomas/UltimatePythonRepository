@@ -1,4 +1,4 @@
-# ========== 4.2.1 ==========
+# # ========== 4.2.1 ==========
 
 # def greatest_number(n1,n2,n3):
 #     if n1>n2 and n1>n3:
@@ -13,12 +13,12 @@
 # total=greatest_number(n1,n2,n3)
 # print(total)
 
-# ========== 4.2.2 ==========
+# # ========== 4.2.2 ==========
 # def same_chars(word,n1,n2):
 #     if word[n1]==word[n2]:
-#         return "True"
+#         return True
 #     else:
-#         return "False"
+#         return False
 # T=same_chars("Programmer",6,7)
 # print(T)
 
