@@ -39,12 +39,12 @@
 # print("Bye!")
 
 # ========== 4.3.4 ==========
-word_list=[]
-n=-1
-while True:
-    word=input("Word:")
-    n=n+1
-    if word in word_list:
-        break
-    word_list.append(word)
-print("You typed in",n,"different words")
+# word_list=[]
+# n=-1
+# while True:
+#     word=input("Word:")
+#     n=n+1
+#     if word in word_list:
+#         break
+#     word_list.append(word)
+# print("You typed in",n,"different words")
