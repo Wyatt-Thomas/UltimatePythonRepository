@@ -63,45 +63,37 @@
 # print(list_sum(a, b)) # [8, 10, 12]
 
 # ========== 4.4.8 ==========
-# def length_of_longest(wordlist):
-#     n=0
-#     for letter in wordlist:
-#         l=(len(letter))
-#         if l>n:
-#             n=l
-#     return(n)
+def length_of_longest(wordlist):
+    n=0
+    for letter in wordlist:
+        l=(len(letter))
+        if l>n:
+            n=l
+    return(n)
 
-# my_list = ["first", "second", "fourth", "eleventh"]
-# result = length_of_longest(my_list)
-# print(result)
+my_list = ["first", "second", "fourth", "eleventh"]
+result = length_of_longest(my_list)
+print(result)
 
-# my_list = ["adele", "mark", "dorothy", "tim", "hedy", "richard"]
-# result = length_of_longest(my_list)
-# print(result)
+my_list = ["adele", "mark", "dorothy", "tim", "hedy", "richard"]
+result = length_of_longest(my_list)
+print(result)
 
 # ========== 4.4.9 ==========
-# def length_of_longest(wordlist):
-#     n=0
-#     for letter in wordlist:
-#         l=(len(letter))
-#         if l>n:
-#             n=l
-#     return(n)
+def shortest(wordlist):
+    n=length_of_longest(wordlist)
+    for letter in wordlist:
+        l=(len(letter))
+        if n>l:
+            n=l
+            p=letter
+    return(p)
 
-# def shortest(wordlist):
-#     n=length_of_longest(wordlist)
-#     for letter in wordlist:
-#         l=(len(letter))
-#         if n>l:
-#             n=l
-#             p=letter
-#     return(p)
+my_list = ["first", "second", "fourth", "eleventh"]
+result = shortest(my_list)
+print(result)
 
-# my_list = ["first", "second", "fourth", "eleventh"]
-# result = shortest(my_list)
-# print(result)
+my_list = ["adele", "mark", "dorothy", "tim", "hedy", "richard"]
 
-# my_list = ["adele", "mark", "dorothy", "tim", "hedy", "richard"]
-
-# result = shortest(my_list)
-# print(result)
+result = shortest(my_list)
+print(result)
